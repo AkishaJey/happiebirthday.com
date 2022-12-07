@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bckgrndimg{
+    width:100%;
+    min-height:100vh;
+}
+.bckgrndimg::before { 
+    content: "";
+    width:100%;
+    min-height:100vh;
+    background-image: url(https://thumbs.dreamstime.com/z/happy-birthday-cupcake-glitter-colorful-background-candle-light-happy-birthday-cupcake-glitter-colorful-background-159872612.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-color: rgba(204,228,238,255);
+    position: absolute;
+}
+.welcomeMessage{
+        font-size:30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style:italic;
+        font-weight:normal;
+        font-stretch:condensed;
+        line-height:2 ;
+        color:black;
+        position: absolute;
+        overflow: hidden;
+}
